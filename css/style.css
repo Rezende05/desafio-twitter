@@ -1,0 +1,105 @@
+* {
+  font-family: 'Roboto', sans-serif;;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1, h2, h3, h4, p, img {
+  margin: 0;
+}
+
+.conteiner {
+  width: 591px;
+  display: flex;
+}
+
+.timeline {
+  margin-left: 12px;
+}
+
+.username {
+  display: flex;
+  align-items: center;
+}
+
+.username h1 {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.username img {
+  width: 15px;
+  height: 15px;
+  margin-left: 3px;
+}
+
+.username p {
+  color: #536471;
+  margin-left: 6px;
+}
+
+.nike-user {
+  margin-right: 10px;
+}
+
+.nike-user::after {
+  content: "";
+  position: absolute;
+  border-color: #536471;
+  border-style: solid;
+  border-radius: 5px;
+  margin-top: 9px;
+  margin-left: 5px;
+}
+
+.post {
+  margin-top: 7px;
+  width: 430px;
+}
+
+.post p {
+  color: #0F1419;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.twitter-icone {
+  display: flex;
+  margin-top: 16px;
+  }
+
+.twitter-icone p {
+  color: #536471;
+  font-size: 13px;
+  font-weight: 400;
+  margin-right: 73px;
+}
+
+.coment {
+  width: 15px;
+  height: 14px;
+  margin-right: 17px;
+}
+
+.retwet {
+  width: 15px;
+  height: 15px;
+  margin-right: 18px;
+}
+
+.favorite {
+  width: 15px;
+  height: 14px;
+  margin-right: 21px;
+}
+
+.share {
+  width: 13px;
+  height: 15px;
+}
